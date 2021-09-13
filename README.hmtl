@@ -13,38 +13,34 @@
 		<li><a href="https://example.com/" target="_blank">Гиперссылка</a></li>
 		<li>Ссылка на файл на сервере FTP<a href="ftp://example.com/myfile.zip"> без авторизации</a></li>
 		<li>Ссылка на файл на сервере FTP<a href="ftp://user:password@example.com/myfile.zip">С авторизацией</a></li>
-		<li><a href="https://yandex.ru#новости" target="_blank">Ссылка1</a></li>
+		<li><a href="https://yandex.ru#news" target="_blank">Ссылка1</a></li>
 		<li><a href="#Форма">Ссылка2</a></li>
-		<li><a href="https://www.onlinestor.com?product=socks&color=black" target="_blank">Ссылка с URL параметрами</a></li></li>
-		<li><a href="">
+		<li><a href="https://www.onlinestor.com?product=socks&color=black" target="_blank">Ссылка с URL параметрами</a></li>
+		<li><a href=""></a>
 			<ul>
 			<li><a href=https://market.yandex.ru/catalog--elektronika/54440 title="Электроника" target="_blank">Ссылка1</a></li>
 			<li><a href=https://market.yandex.ru/catalog--bytovaia-tekhnika/54419 title="Бытовая техника" target="_blank">Ссылка2</a></li>
 			<li><a href=https://market.yandex.ru/catalog--kompiuternaia-tekhnika/54425 title="Компьютеры" target="_blank">Ссылка3</a></li>
 			</ul>
 		</li>
-		<br>
 		<li><a>Ссылка без href</a></li>
 		<li><a href="">ССылка с пустым href</a></li>
 		<li><a href="http://example.ru" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a></li>
 		<li><noindex--><a href="http://example.ru"> Ссылка, запрещенная для индексации поисковиками </a></noindex--></li>
-		<li><a id="metka" href="https://kubsu.ru/ru" информация>Ссылка</a></li>
+		<li><a id="metka" href="https://kubsu.ru/ru">Ссылка</a></li>
 		<li><p><a href="sample.html"><img src="image.jpg" alt="Цветок" style="width: 600px;"></a></p></li>
 		<li><a href="sample.html"><img src = "image.jpg" alt="Цветок" style="width: 600px;" usemap = "#map">
 		<map name = "map">
 		<area shape = "rect" href = "ссылочка" coords = "20 20 120 120"/>
 		<area shape = "circle" href = "ссылочка" coords = "180 70 40"/>
 		</map></a></li>
-		<li><a href="Ссылаемый документ.html1">Ссылка1</a></li>
+		<li><a href="Ссылаемый документ.html">Ссылка1</a></li>
 		<li><a href="about/Ссылаемый документ2.html">Ссылка2</a></li>
 		<li><a href="../Ссылаемый документ3.html">Ссылка3</a></li>
 		<li><a href="../../Ссылаемый документ4.html">Ссылка</a></li>
 		<li><a href="/">Сокращенная ссылка на главную</a></li>
 		<li><a href="/example.html">Сокращенная ссылка на внутреннюю</a></li>
 	</ol>
-	</body>
-
-  <body>
 
     <h1>Форма</h1>
 
@@ -106,10 +102,10 @@
         <textarea name="field-name-2">информация о себе</textarea>
       </label>
 
-      С контрактом ознакомлен:<br />
+      С контрактом ознакомлен:<br/>
       <label><input type="checkbox" checked="checked"
         name="check-1" />
-        Ознакомлен </label><br />
+        Ознакомлен </label><br/>
 
       Отправить форму:
       <input type="submit" value="Отправить" />
